@@ -1,0 +1,1 @@
+exports.range = (start, stop) => Array.from({ length: (stop - start) }, (_, i) => start + i);
